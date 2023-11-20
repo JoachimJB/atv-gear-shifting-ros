@@ -9,6 +9,11 @@ This ROS package addresses the challenge of remotely changing gears in All Terra
   - **Main Responsibility:** Project Leader, SCRUM Product Owner and head of Communications.
   - **Secondary Responsibility:** Created and led the development of the head package (and others, which will be pushed to the repo soon).
   - **Team Effort:** Acknowledges the collaborative effort of the team in achieving the project's goals.
+  
+**TEAM:**
+- Joachim Jamtvedt Børresen, Martin Jørgensen and Leif Arne Ulvestad Bastesen (Computer engineers)
+- Sigurd Sætherø Spangelo (Electrical engineer) 
+- Vegard Skårdal Brenna and Vebjørn Aleksander Østlie (Mechanical engineers)
 
 ## Problem Description
 
@@ -25,7 +30,7 @@ The algorithm employed by the package mitigates gear jams by recalling the last 
 ## System Requirements
 
 - **ROS:** ROS Noetic and ROS2 Foxy
-- **Ubuntu:** 20.04 (Note: ROS-Noetic is chosen for compatibility with Arduino UNO and Mega using the rosserial library)
+- **Ubuntu:** 20.04 LTS and 22.04 LTS (Note: ROS-Noetic is chosen for compatibility with Arduino UNO and Mega using the rosserial library)
 - **ROS Bridge:** Required to communicate with ROS2 Foxy on the ATV onboard server
 
 ## Getting Started
