@@ -6,9 +6,8 @@ This ROS package addresses the challenge of remotely changing gears in All Terra
 
 **Author:**
 - Joachim Jamtvedt Børresen (LoneWolf Kongsberg 2023 Bachelor thesis)
-  - **Main Responsibility:** Created and led the development of the head package.
+  - **Secondary Responsibility:** Created and led the development of the head package.
   - **Team Effort:** Acknowledges the collaborative effort of the team in achieving the project's goals.
-
 
 ## Problem Description
 
