@@ -4,6 +4,12 @@
 
 This ROS package addresses the challenge of remotely changing gears in All Terrain Vehicles (ATVs) when the gearbox gets stuck. The system facilitates smooth gear shifts, including handling scenarios where the gears are jammed due to gearbox limitations.
 
+**Author:**
+- Joachim Jamtvedt Børresen (LoneWolf Kongsberg 2023 Bachelor thesis)
+  - **Main Responsibility:** Created and led the development of the head package.
+  - **Team Effort:** Acknowledges the collaborative effort of the team in achieving the project's goals.
+
+
 ## Problem Description
 
 When attempting to change gears remotely, the ATV's gearbox may become stuck. To resolve this, the package provides a solution by implementing a back-and-forth movement strategy to engage the selected gear, similar to the manual effort needed to shift a traditional car into reverse.
@@ -18,41 +24,13 @@ The algorithm employed by the package mitigates gear jams by recalling the last 
 
 ## System Requirements
 
-- ROS: Melodic
-- Ubuntu: 20.04 (Note: ROS-Noetic is chosen for compatibility with Arduino UNO and Mega using the rosserial library)
-- ROS Bridge: Required to communicate with ROS2 Foxy on the ATV onboard server
+- **ROS:** ROS Noetic and ROS2 Foxy
+- **Ubuntu:** 20.04 (Note: ROS-Noetic is chosen for compatibility with Arduino UNO and Mega using the rosserial library)
+- **ROS Bridge:** Required to communicate with ROS2 Foxy on the ATV onboard server
 
 ## Getting Started
 
-1. Clone this repository:
-
-    ```bash
-    git clone https://github.com/your-username/atv-gear-shifting-ros.git
-    ```
-
-2. Navigate to the ROS workspace:
-
-    ```bash
-    cd catkin_ws/src
-    ```
-
-3. Build the package:
-
-    ```bash
-    catkin build
-    ```
-
-4. Source the workspace:
-
-    ```bash
-    source devel/setup.bash
-    ```
-
-5. Run the ROS node:
-
-    ```bash
-    roslaunch atv_gear_shifting gear_shifting.launch
-    ```
+[//]: # (Getting started section details will be added later.)
 
 ## Configuration
 
